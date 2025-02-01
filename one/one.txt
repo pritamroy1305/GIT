@@ -1,39 +1,7 @@
 Git is a distributed version control system that helps developers track changes in their codebase and collaborate with others..
-With Git, developers can create branches to work on new features or bug fixes without affecting the main codebase. Once the work is complete, the changes can be merged back into the main branch. Git also allows for easy collaboration, as multiple developers can work on the same project simultaneously and merge their changes seamlessly.
-/**
- * This file provides an overview of various Git commands and their usage.
- * 
- * Key Points:
- * 
- * - `git diff`: Shows differences between commits, working directory, and staging area.
- *   - `git diff`: Compare working directory and staging area.
- *   - `git diff --staged`: Compare staging area with the repository.
- *   - `git diff <branch-name-one> <branch-name-two>`: Compare differences between branches.
- *   - `git diff <commit-hash-one> <commit-hash-two>`: Compare specific commits.
- * 
- * - Git Stash: Temporarily save changes.
- *   - `git stash`: Save changes in a temporary location.
- *   - `git stash save "message"`: Name the stash.
- *   - `git stash list`: View stash list.
- *   - `git stash apply`: Apply the stash.
- *   - `git stash apply stash@{0}`: Apply a specific stash.
- *   - `git stash pop`: Apply and drop the stash.
- *   - `git stash drop`: Drop the stash.
- *   - `git stash apply stash@{0} <branch-name>`: Apply stash to a specific branch.
- *   - `git stash clear`: Clear the stash.
- * 
- * - Git Tags: Mark specific points in the repository.
- *   - `git tag <tag-name>`: Create a tag.
- *   - `git tag -a <tag-name> -m "message"`: Create an annotated tag.
- *   - `git tag`: List all tags.
- *   - `git tag <tag-name> <commit-hash>`: Tag a specific commit.
- *   - `git push origin <tag-name>`: Push tags to a remote repository.
- *   - `git tag -d <tag-name>`: Delete a tag.
- *   - `git push origin :<tag-name>`: Delete a tag on a remote repository.
- * 
- * Conclusion:
- * - Understanding these commands enhances the ability to manage and navigate a Git repository effectively.
- */
-Additionally, Git provides a detailed history of all changes made to the codebase, making it easy to revert to previous versions if needed. It also supports various workflows, such as feature branching, Gitflow, and forking, to accommodate different development practices.
+With Git, developers can create branches to work on new features or bug fixes without affecting the main codebase. Once the work is complete, the changes can be merged back into the main branch. Git also allows for easy collaboration, as multiple developers can work on the same project simultaneously and merge their changes seamlessly
 
-another marketimng section          
+
+.
+Sample line 1: Git is free and open-source software.
+
