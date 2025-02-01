@@ -1,5 +1,0 @@
-# .gitkeep
-
-The `.gitkeep` file is a convention used in Git to ensure that empty directories are tracked. Git does not track empty directories by default, so adding a `.gitkeep` file to an otherwise empty directory allows it to be committed to the repository. The file itself does not have any special meaning to Git; it is simply a placeholder.
-
-To use a `.gitkeep` file, simply create an empty file named `.gitkeep` in the directory you want to track, and then add and commit it to your repository:
