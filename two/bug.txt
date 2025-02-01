@@ -1,0 +1,2 @@
+This is a placeholder text in the file bug.txt.
+You can replace this text with your actual content.
